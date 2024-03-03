@@ -1,1 +1,2 @@
-# OTUS_QA_Autommation
+# OTUS_QA_Automation
+Это учебный проект по написанию тестов на Selenium
