@@ -1,26 +1,21 @@
 from figure import Figure
+import math
 
 
-class Rectangle(Figure):
+class Circle(Figure):
 
-    def __init__(self, side_a, side_b):
-        super().__init__(name="Rectangle")
-        if side_a <= 0 or side_b <= 0:
-            raise ValueError("Сторона прямоугольника не должна быть отрицательным или нулевым значением")
-        self.side_a = side_a
-        self.side_b = side_b
+    def __init__(self, radius):
+        super().__init__(name="Circle")
+        if radius <= 0:
+            raise ValueError("Сторона данной фигуры не должна быть отрицательным или нулевым значением")
+        self.radius = radius
+        self.name = "Circle"
 
     def get_area(self):
-        return self.side_a * self.side_b
+        return math.pi * self.radius ** 2
 
     def get_perimeter(self):
-        return (self.side_a + self.side_b) * 2
-
-# a = Rectangle(3,5)
-# print(a.side_a)
-# print(a.side_b)
-# print(a.get_area())
-# print(a.get_perimeter())
+        return 2 * (math.pi * self.radius)
 
 
 

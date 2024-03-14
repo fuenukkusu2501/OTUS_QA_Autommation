@@ -12,7 +12,7 @@ class Figure(ABC):
 
     @abstractmethod
     def get_perimeter(self):
-        return (self.side_a + self.side_b) * 2
+        pass
 
     def add_area(self, other_figure):
         if not isinstance(other_figure, Figure):
