@@ -4,31 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bcc2da7-a1b3-4f50-a876-1bcd0e2e3909" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/OTUS_Selenium.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pylint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fix_me.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/circle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/figure.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rectangle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/square.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/triangle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_pytest/circle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_pytest/figure.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_pytest/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_pytest/rectangle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_pytest/square.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_pytest/triangle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_pytest/triangle_exp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_clases.py" afterDir="false" />
-    </list>
+    <list default="true" id="1bcc2da7-a1b3-4f50-a876-1bcd0e2e3909" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
