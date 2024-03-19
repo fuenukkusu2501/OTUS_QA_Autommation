@@ -1,4 +1,5 @@
 from figure import Figure
+from rectangle import Rectangle
 
 
 class Triangle(Figure):
