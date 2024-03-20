@@ -5,7 +5,6 @@ from src.triangle import Triangle
 from src.circle import Circle
 from src.square import Square
 
-
 """Позитивные тесты на площадь"""
 
 
@@ -41,28 +40,28 @@ def test_area_circle_positiv(circle_data, circle_data_1):
 
 
 @pytest.mark.parametrize("rectangle_data_1", ["integer_perimeter", "float_perimeter"])
-def test_area_rectangle_positiv(rectangle_data, rectangle_data_1):
+def test_perimeter_rectangle_positiv(rectangle_data, rectangle_data_1):
     side_a, side_b, perimeter = rectangle_data(data=rectangle_data_1)
     r = Rectangle(side_a, side_b)
     assert r.get_perimeter() == perimeter, f"Area shold be {perimeter}"
 
 
 @pytest.mark.parametrize("square_data_1", ["integer_perimeter", "float_perimeter"])
-def test_area_square_positiv(square_data, square_data_1):
+def test_perimeter_square_positiv(square_data, square_data_1):
     side_a, perimeter = square_data(data=square_data_1)
     s = Square(side_a)
     assert s.get_perimeter() == perimeter, f"Area shold be {perimeter}"
 
 
 @pytest.mark.parametrize("triangle_data_1", ["integer_perimeter", "float_perimeter"])
-def test_area_triangle_positiv(triangle_data, triangle_data_1):
+def test_perimeter_triangle_positiv(triangle_data, triangle_data_1):
     side_a, side_b, side_c, perimeter = triangle_data(data=triangle_data_1)
     t = Triangle(side_a, side_b, side_c)
     assert t.get_perimeter() == perimeter, f"Area shold be {perimeter}"
 
 
 @pytest.mark.parametrize("circle_data_1", ["integer_perimeter", "float_perimeter"])
-def test_area_circle_positiv(circle_data, circle_data_1):
+def test_perimeter_circle_positiv(circle_data, circle_data_1):
     radius, perimeter = circle_data(data=circle_data_1)
     c = Circle(radius)
     assert c.get_perimeter() == perimeter, f"Area shold be {perimeter}"
